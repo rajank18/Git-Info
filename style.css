@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
+    overflow-x: hidden;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     padding: 1rem;
 }
 
-header h2{
+header h2 {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:800;
@@ -67,3 +68,22 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+@media (max-width: 768px) {
+    header h2 {
+        position: static;
+        text-align: center;
+        margin: 0;
+        padding-top: 10px;
+    }
+}
+
+/* @media (min-width: 769px) {
+    header h2 {
+    
+    bottom: 10px;
+    right: 20px;
+    margin: 0;
+        
+    }
+} */
