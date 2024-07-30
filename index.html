@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Use Git</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>How to Use Git</h1>
+        <h2>By <a href="https://www.instagram.com/whyrajan" style="text-decoration: none;color: rgb(144, 185, 222);">RAJAN</a></h2>
+    </header>
+    <main>
+        <section id="download">
+            <h2>Step 1: Download Git</h2>
+            <p>To start using Git, you need to download and install it on your computer. Choose the appropriate link below:</p>
+            <ul>
+                <li><a href="https://git-scm.com/download/win" target="_blank">Download for Windows</a></li>
+                <li><a href="https://git-scm.com/download/mac" target="_blank">Download for macOS</a></li>
+                <li><a href="https://git-scm.com/download/linux" target="_blank">Download for Linux</a></li>
+            </ul>
+        </section>
+        <section id="config">
+            <h2>Step 2: Configure Git</h2>
+            <p>After installing Git, you need to configure your username and email. Run the following commands in your terminal:</p>
+            <pre><code>git config --global user.name "Your Name"</code></pre>
+            <pre><code>git config --global user.email "your.email@example.com"</code></pre>
+        </section>
+        <section id="initialize">
+            <h2>Step 3: Initialize a Git Repository</h2>
+            <p>Open your terminal or command prompt and navigate to your project directory. Run the following command to initialize a new Git repository:</p>
+            <pre><code>git init</code></pre>
+        </section>
+        <section id="commit">
+            <h2>Step 4: Commit Your Changes</h2>
+            <p>After making changes to your files, you need to commit them to your repository:</p>
+            <pre><code>git add .</code></pre>
+            <pre><code>git commit -m "Your commit message"</code></pre>
+        </section>
+        <section id="push">
+            <h2>Step 5: Push to GitHub</h2>
+            <p>To push your changes to GitHub, you need to link your local repository to a remote repository. Run the following commands:</p>
+            <pre><code>git remote add origin https://github.com/your-username/your-repo.git</code></pre>
+            <pre><code>git push -u origin master</code></pre>
+        </section>
+        <section id="gui">
+            <h2>Using Git GUI</h2>
+            <p>If you don't want to write this comands then you can use the Git GUI interface to manage and create repository</p>
+            <ol>
+                <li>Open Git GUI from your application menu.</li>
+                <li>Click on "Create New Repository" and choose your project directory.</li>
+                <li>Make changes to your files and then click "Rescan" to see the changes.</li>
+                <li>Stage the changes by selecting them and clicking "Stage Changed" button.</li>
+                <li>Enter your commit message and click "Commit".</li>
+                <li>To push your changes to GitHub, go to "Remote" menu, select "Add" and add your repository URL.</li>
+                <li>Finally, click "Push" to upload your changes.</li>
+            </ol>
+        </section>
+    </main>
+    <!-- <footer>
+        <p>&copy; 2024 How to Use Git</p>
+    </footer> -->
+    <script src="main.js"></script>
+</body>
+</html>
